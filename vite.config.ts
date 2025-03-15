@@ -4,7 +4,6 @@ import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
-  base: "/keaz-app/",
   server: {
     port: 3000,
   },
