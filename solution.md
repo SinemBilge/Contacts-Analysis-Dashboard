@@ -2,4 +2,6 @@ The dashboard is built using React and Recharts. There are two BarChart componen
 
 Challenges came up while making sure the dashboard stayed responsive and performed well with dynamic data updates. To solve this, I used window.innerWidth to adjust chart layouts so everything looks good on mobile(tested with iPhone 2nd gen) and computer (MacBook Pro inch 13) screen. Making the PieChart interactive while keeping it clear was another challenge. I added click-based filtering in the legend so users can toggle different data categories.
 
+Moreover, another challenge was to make it online. For Github, as the repository is private, it was not possible to make the webpage live. Therefore, I decided to use AWS EC2 instance. Please check my website at: https://keaz.neontimetravel.com/
+
 To highlight change in revenue and contact percentages, I added an animated glow effect using useState and useEffect. Additionally, the email button is designed to improve accessibility and user support. When clicked, it automatically opens the user's default email client with a prefilled subject and message, making it easy to reach out for help without manual input. The next step would be adding real-time data updates :)
