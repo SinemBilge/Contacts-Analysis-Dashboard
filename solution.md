@@ -5,3 +5,15 @@ Challenges came up while making sure the dashboard stayed responsive and perform
 Moreover, another challenge was to make it online. For Github, as the repository is private, it was not possible to make the webpage live. Therefore, I decided to use AWS EC2 instance. Please check my website at: https://keaz.neontimetravel.com/
 
 To highlight change in revenue and contact percentages, I added an animated glow effect using useState and useEffect. Additionally, the email button is designed to improve accessibility and user support. When clicked, it automatically opens the user's default email client with a prefilled subject and message, making it easy to reach out for help without manual input. The next step would be adding real-time data updates :)
+
+To run the app on your pc: 
+1- Install the dependencies:
+npm install react react-dom react-router recharts react-icons tailwindcss
+npm install --save-dev vite typescript @types/react @types/react-dom @react-router/dev @tailwindcss/vite vite-tsconfig-paths
+
+2-Start development mode:
+npm run dev
+
+3- If dependencies are missing or broken:
+rm -rf node_modules package-lock.json
+npm install
