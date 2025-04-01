@@ -9,7 +9,9 @@ To highlight change in revenue and contact percentages, I added an animated glow
 To run the app on your pc:
 
 1- Install the dependencies:
+
 npm install react react-dom react-router recharts react-icons tailwindcss
+
 npm install --save-dev vite typescript @types/react @types/react-dom @react-router/dev @tailwindcss/vite vite-tsconfig-paths
 
 2-Start development mode:
