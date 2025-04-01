@@ -5,4 +5,4 @@ I was provided with a starter frontend setup (routes and a menu bar) and asked t
 This challenge was a great opportunity to showcase both my frontend engineering skills and my creative problem-solving approach. It was completed using TypeScript, React, and Chart.js, and deployed using Bun for its speed and minimal tooling overhead.
 
 Included a solution.md file explaining the approach, tools used, and reasoning behind design decisions.
-You can check it online here: 
+You can check it online here: https://keaz.neontimetravel.com/
